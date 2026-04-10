@@ -43,7 +43,7 @@ public:
 	/*void instantPage(cocos2d::CCObject*,int);*/
 	static ownWorldSelectLayer* create(int page);
 	static cocos2d::CCScene* scene(int page);
-	void updatePageWithObject(CCObject* page, CCObject* object);
+	void updatePageWithObject(CCObject* page, CCObject* object) override;
 	
 }; 
 
