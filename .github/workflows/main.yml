@@ -38,11 +38,8 @@ jobs:
           submodules: 'recursive'
           
       - name: Build the mod
-        #uses: geode-sdk/build-geode-mod@main
         uses: geode-sdk/build-geode-mod@main
         with:
-          bindings: iArtie/bindings
-          bindings-ref: main
           combine: true
           export-pdb: true
           target: ${{ matrix.config.target }}
