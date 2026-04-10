@@ -2,7 +2,7 @@
 #include <Geode/Bindings.hpp>
 #include <Geode/Geode.hpp>
 #include <Geode/ui/Popup.hpp>
-class WorldLevel : public geode::Popup<std::string const&> {
+class WorldLevel : public geode::Popup {
 
 protected:
     bool init(std::string const& value);

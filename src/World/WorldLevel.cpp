@@ -5,9 +5,9 @@
 using namespace geode::prelude;
 
 
-class WorldLevelPopup : public geode::Popup<std::string const&> {
+class WorldLevelPopup : public geode::Popup {
 protected:
-    bool setup(std::string const& value) override {
+    bool setup(std::string const& value) {
         auto winSize = CCDirector::sharedDirector()->getWinSize();
         this->setID("worldLevelPopup"_spr);
     
@@ -25,7 +25,7 @@ public:
         auto ret = new WorldLevelPopup();
 
         
-        if (ret && ret->initAnchored(300.f, 260.f, text)) {
+        if (ret && ret->init(300.f, 260.f) && ret->setup(text)) {
             ret->autorelease();
             return ret;
         }
