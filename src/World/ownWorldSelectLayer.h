@@ -27,7 +27,7 @@ public:
 	void onInfo(cocos2d::CCObject*);
 	void onPlay(cocos2d::CCObject*);
 	void onBack(cocos2d::CCObject*);
-	void keyBackClicked();
+	void keyBackClicked() override;
 	void createStars(GJGameLevel* level, CCLayer* layer);
 	void onWorldLevel(cocos2d::CCObject* sender);
 	void onGarage(cocos2d::CCObject* sender);

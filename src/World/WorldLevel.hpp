@@ -17,8 +17,8 @@ private:
 
   
     void keyBackClicked() override;
-    void updatePageWithObject(CCObject* page, CCObject* object) override;
-    void onClose(CCObject*);
+    void updatePageWithObject(CCObject* page, CCObject* object);
+    void onClose(CCObject*) override;
     int m_level;
 };
 
