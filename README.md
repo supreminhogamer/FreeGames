@@ -43,6 +43,6 @@ You can download the latest packaged mod file from the Releases page:
 
 * **Original Developer:** [BitZ](https://github.com/iArtie) - For the original concept and source code.
 * **Source Fork:** [supreminhogamer](https://github.com/supreminhogamer/FreeGames) - For the base of this project.
-* **Windows Fix & Maintenance:** [YOUR_USERNAME](https://github.com/waolth) - Fixed the binary issue and updated the SDK.
+* **Windows Fix & Maintenance:** [waolth](https://github.com/waolth) - Fixed the binary issue and updated the SDK.
 
 If this fix helped you, please consider leaving a **Star ⭐** on this repository. It helps other users find this working version!
