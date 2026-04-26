@@ -14,9 +14,12 @@ jobs:
         config:
         - name: Windows
           os: windows-latest
-        - name: Android
+        - name: Android32
           os: ubuntu-latest
-          target: Android
+          target: Android32
+        - name: Android64
+          os: ubuntu-latest
+          target: Android64
 
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
@@ -31,3 +34,16 @@ jobs:
           build-config: RelWithDebInfo
           target: ${{ matrix.config.target }}
           combine: true
+
+  package:
+    name: Package builds
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: geode-sdk/build-geode-mod/combine@main
+        id: build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-output
+          path: ${{ steps.build.outputs.out-file }}
