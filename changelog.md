@@ -1,4 +1,11 @@
 # MoreGames Changelog
+
+## v1.0.8-fixed (2026-04-27)
+- **Bug Fix:** Fixed the `Unable to find platform binary under the name "bitz.moregames.dll"` error on Windows.
+- **System:** Native Windows Compilation added.
+- **System:** Updated Geode SDK target to v5.6.1 (previously v5.5.3).
+- **System:** Fixed packaging issues to ensure all textures and level files are correctly included in the `.geode` file.
+
 ## v1.0.8 (2025-01-17)
 - Big code optimization!
 - SpinOffs levels added on leveltools! (this fix the android crash)
