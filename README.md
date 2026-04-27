@@ -1,6 +1,5 @@
 # 🚀 MoreGames - Windows Fix (Geode v5.6.1)
 
-![GitHub Release](https://img.shields.io/github/v/release/waolth/FreeGamesFixed?color=green&label=Download%20Fixed%20Mod)
 ![GitHub Stars](https://img.shields.io/github/stars/waolth/FreeGamesFixed?style=social)
 
 This is a fixed and updated fork of the **MoreGames** mod, specifically compiled to resolve compatibility issues on Windows with the latest Geode versions.
@@ -31,7 +30,7 @@ You can download the latest packaged mod file from the Releases page:
 
 ## 📖 Installation Guide
 
-1.  Download the `bitz.moregames.geode` file from the link above.
+1.  Download the `waolth.moregames.geode` file from the link above.
 2.  Navigate to your Geometry Dash installation folder (usually managed by Steam):
     `C:\Program Files (x86)\Steam\steamapps\common\Geometry Dash\geode\mods`
 3.  Drop the downloaded `.geode` file into the `mods` folder.
